@@ -32,7 +32,7 @@ def pctrl(vel_pub,x_goal,y_goal):
         if dist_rem<0.1: #permissable error 
             break
 
-rospy.init_node('turtlesim_motion_pose', anonymous=True)
+rospy.init_node('motion_pose', anonymous=True)
 
 #declare velocity publisher
 cmd_vel_topic='/cmd_vel'
